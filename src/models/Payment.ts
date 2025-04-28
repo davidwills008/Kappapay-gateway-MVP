@@ -21,7 +21,7 @@ export class Payment extends BaseEntity {
 
   constructor(
     id: string,
-    amount: number,
+    amount: number,-
     currency: string,
     payerId: string,
     payeeId: string,
